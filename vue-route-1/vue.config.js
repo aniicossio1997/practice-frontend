@@ -8,8 +8,8 @@
 // }
 
 module.exports = {
-  publicPath: '/practice-frontend/vue-route-1/'
-  // publicPath: process.env.NODE_ENV === 'production'
-  //   ? '/practice-frontend/vue-route-1/'
-  //   : '/'
+  // publicPath: '/practice-frontend/vue-route-1/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/practice-frontend/vue-route-1/'
+    : '/'
 }
