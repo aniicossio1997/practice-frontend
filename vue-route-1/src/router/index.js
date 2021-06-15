@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: '/galeria/:id',
-    name: 'Galeria',
+    name: 'galeria',
     component: () => import('../views/Galeria.vue')
   }
   
